@@ -499,7 +499,7 @@ public class CllHomeTC {
 		Global_isi.isi_legal_footer(driver, ext, wait).click();
 		wait.until(ExpectedConditions.urlMatches(Url.url1 + Url.cll_legal));
 		wait.until(ExpectedConditions.titleIs(Titles.cll_legal));
-		}
+		 }
 	}
 	@Test
 	public void cll_home_isi_contact_us(){
