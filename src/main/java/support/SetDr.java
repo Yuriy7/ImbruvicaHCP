@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 public class SetDr{
 	
 	static WebDriver driver;
-	//public static String set_driver = "Chrome";
-	public static String set_driver = "FireFox";
+	public static String set_driver = "Chrome";
+	//public static String set_driver = "FireFox";
 	//public static String set_driver = "ie";
 	//public static String set_driver = "Edge";
 	//static WebDriver driver;

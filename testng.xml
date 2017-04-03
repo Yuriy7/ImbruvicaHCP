@@ -1,0 +1,15 @@
+
+<suite name="Any Name" >
+
+<test name="Any Name" >
+
+ <classes>
+<class name="com.imbruvica.home.SupHomeTC"></class>
+<class name="com.imbruvica.cll.CllHomeTC"></class>
+<class name="com.imbruvica.cll.CllStudyDesignTC"></class>
+
+</classes>
+
+</test>
+
+</suite>
