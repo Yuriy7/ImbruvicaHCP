@@ -33,7 +33,7 @@ public class SetDr{
 			driver = new InternetExplorerDriver();
 		}
 		else if (set_driver.equals("Edge")){
-			System.setProperty("webdriver.ie.driver", "C:\\Automation\\MicrosoftWecDriver\\MicrosoftWecDriver.exe");
+			System.setProperty("webdriver.ie.driver", "C:\\Automation\\MicrosoftWebDriver\\MicrosoftWebDriver.exe");
 			driver = new InternetExplorerDriver();
 		}
 		
