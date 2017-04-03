@@ -54,7 +54,11 @@ public class SetDr{
 			driver=new ChromeDriver();
 		}
 		else if (browser.equals("ie")){
-			System.setProperty("webdriver.ie.driver", "C:\\Automation\\IE32\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "C:\\Automation\\IE\\IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+		}
+		else if (browser.equals("Edge")){
+			System.setProperty("webdriver.ie.driver", "C:\\Automation\\MicrosoftWebDriver\\MicrosoftWebDriver.exe");
 			driver = new InternetExplorerDriver();
 		}
 			return driver;
